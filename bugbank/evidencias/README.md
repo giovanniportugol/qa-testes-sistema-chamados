@@ -1,35 +1,24 @@
-# Evidências de Testes - BugBank
+## Projeto Prático - BugBank
 
-Esta pasta será utilizada para armazenar as evidências dos testes manuais realizados no site BugBank.
+Além do sistema fictício de chamados, este portfólio também contém uma prática de testes manuais no site BugBank.
 
-As evidências podem incluir:
+O projeto BugBank já possui **9 testes executados com evidências reais**, cobrindo cenários de cadastro, login, transferência e consulta de extrato.
 
-- Prints de tela
-- Mensagens de erro
-- Mensagens de sucesso
-- Validações de campos obrigatórios
-- Comprovações de execução dos casos de teste
+### Testes executados
 
-## Evidências planejadas
+- Cadastro de usuário com sucesso
+- Cadastro com e-mail inválido
+- Cadastro com campos vazios
+- Login com sucesso
+- Login com senha inválida
+- Login com campos vazios
+- Transferência com sucesso
+- Transferência para conta inexistente
+- Consulta de extrato
 
-- cadastro-usuario-sucesso.png
-- cadastro-email-invalido.png
-- cadastro-campos-vazios.png
-- login-sucesso.png
-- login-senha-invalida.png
-- login-campos-vazios.png
-- transferencia-sucesso.png
-- transferencia-conta-inexistente.png
-- extrato-transferencia.png
+### Documentação BugBank
 
-## Evidências adicionadas
-
-- cadastro-usuario-sucesso.png
-- cadastro-email-invalido.png
-- cadastro-campos-vazios.png
-- login-sucesso.png
-- login-senha-invalida.png
-- login-campos-vazios.png
-- transferencia-sucesso.png
-- transferencia-conta-inexistente.png
-- extrato-transferencia.png
+- [Projeto BugBank](bugbank/README.md)
+- [Casos de Teste BugBank](bugbank/casos-de-teste-bugbank.md)
+- [Relatório de Bugs BugBank](bugbank/relatorio-de-bugs-bugbank.md)
+- [Evidências BugBank](bugbank/evidencias/README.md)
