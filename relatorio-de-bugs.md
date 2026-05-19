@@ -1,94 +1,97 @@
-# Relatório de Bugs - Sistema de Chamados
 
-## Bug-001: Sistema permite tentativa de login com campos vazios
+# Relatório de Bugs - BugBank
+
+## Bug-BB-001: Sistema permite tentativa de login com campos vazios
 
 **Funcionalidade:** Login  
 **Severidade:** Média  
 **Prioridade:** Alta  
-**Status:** Aberto  
+**Status:** Planejado para validação  
 
 ### Descrição
 
-Ao clicar no botão "Entrar" sem preencher os campos de e-mail e senha, o sistema deve exibir mensagens informando que os campos são obrigatórios.
+Ao clicar no botão "Acessar" sem preencher os campos de e-mail e senha, o sistema deve exibir mensagens de validação informando que os campos são obrigatórios.
 
 ### Passos para reproduzir
 
-1. Acessar a tela de login
+1. Acessar o site BugBank
 2. Deixar os campos e-mail e senha vazios
-3. Clicar no botão "Entrar"
+3. Clicar no botão "Acessar"
 
 ### Resultado esperado
 
-O sistema deve exibir mensagens de validação informando que os campos e-mail e senha são obrigatórios.
+O sistema deve exibir mensagens informando que os campos obrigatórios precisam ser preenchidos.
 
 ### Resultado obtido
 
-O sistema permite a tentativa de login sem destacar corretamente os campos obrigatórios.
+A validar durante a execução dos testes.
 
 ### Evidência
 
-A evidência será adicionada na pasta `evidencias/`.
+A evidência será adicionada na pasta `bugbank/evidencias/`.
 
 ---
 
-## Bug-002: Cadastro de chamado sem descrição
+## Bug-BB-002: Cadastro com e-mail inválido
 
-**Funcionalidade:** Cadastro de Chamado  
+**Funcionalidade:** Cadastro de Usuário  
+**Severidade:** Média  
+**Prioridade:** Alta  
+**Status:** Planejado para validação  
+
+### Descrição
+
+O sistema deve validar corretamente o formato do e-mail informado no cadastro de usuário.
+
+### Passos para reproduzir
+
+1. Acessar o site BugBank
+2. Clicar em "Registrar"
+3. Informar um e-mail em formato inválido
+4. Preencher os demais campos obrigatórios
+5. Clicar em "Cadastrar"
+
+### Resultado esperado
+
+O sistema deve exibir uma mensagem informando que o e-mail é inválido.
+
+### Resultado obtido
+
+A validar durante a execução dos testes.
+
+### Evidência
+
+A evidência será adicionada na pasta `bugbank/evidencias/`.
+
+---
+
+## Bug-BB-003: Transferência para conta inexistente
+
+**Funcionalidade:** Transferência  
 **Severidade:** Alta  
 **Prioridade:** Alta  
-**Status:** Aberto  
+**Status:** Planejado para validação  
 
 ### Descrição
 
-O sistema não deve permitir o cadastro de um chamado sem descrição, pois esse campo é necessário para que a equipe de suporte compreenda o problema relatado.
+O sistema não deve permitir transferência para uma conta inexistente ou inválida.
 
 ### Passos para reproduzir
 
-1. Acessar o sistema com um usuário válido
-2. Clicar em "Novo Chamado"
-3. Preencher o campo título
-4. Deixar o campo descrição vazio
-5. Clicar em "Salvar"
+1. Acessar o BugBank com um usuário válido
+2. Clicar em "Transferência"
+3. Informar uma conta inexistente
+4. Informar um valor para transferência
+5. Clicar em "Transferir"
 
 ### Resultado esperado
 
-O sistema deve exibir uma mensagem informando que a descrição é obrigatória.
+O sistema deve exibir uma mensagem informando que a conta destino é inválida ou inexistente.
 
 ### Resultado obtido
 
-O sistema permite o cadastro do chamado sem descrição.
+A validar durante a execução dos testes.
 
 ### Evidência
 
-A evidência será adicionada na pasta `evidencias/`.
-
----
-
-## Bug-003: Filtro de chamados não retorna mensagem quando não há resultados
-
-**Funcionalidade:** Consulta de Chamados  
-**Severidade:** Baixa  
-**Prioridade:** Média  
-**Status:** Aberto  
-
-### Descrição
-
-Ao pesquisar por um chamado inexistente, o sistema deve informar que nenhum chamado foi encontrado.
-
-### Passos para reproduzir
-
-1. Acessar o sistema com um usuário válido
-2. Entrar na tela "Meus Chamados"
-3. Pesquisar por um número de chamado inexistente
-
-### Resultado esperado
-
-O sistema deve exibir a mensagem: "Nenhum chamado encontrado."
-
-### Resultado obtido
-
-O sistema não apresenta nenhuma mensagem ao usuário.
-
-### Evidência
-
-A evidência será adicionada na pasta `evidencias/`.
+A evidência será adicionada na pasta `bugbank/evidencias/`.
