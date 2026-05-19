@@ -66,10 +66,14 @@ Status do Projeto
 
 Em desenvolvimento.
 
-Este projeto está sendo construído como parte dos meus estudos em QA/Testes de Software, com foco em testes manuais, documentação, registro de bugs, evidências e estudos iniciais em automação de testes.
+Este projeto está sendo construído como parte dos meus estudos em QA/Testes de Software,
+com foco em testes manuais, documentação, registro de bugs, evidências e estudos iniciais em automação de testes.
 
 Sobre mim
 
-Estou em transição de carreira para a área de TI, com foco em QA/Testes de Software. Tenho uma base inicial em lógica de programação, testes manuais, documentação de testes, análise de requisitos e desenvolvimento de projetos práticos, construída por meio de estudos e prática.
+Estou em transição de carreira para a área de TI, com foco em QA/Testes de Software.
+Tenho uma base inicial em lógica de programação, testes manuais, documentação de testes, análise de requisitos
+e desenvolvimento de projetos práticos, construída por meio de estudos e prática.
 
-Tenho interesse em evoluir profissionalmente na área de qualidade de software, contribuindo com organização, atenção aos detalhes, vontade de aprender e melhoria contínua.
+Tenho interesse em evoluir profissionalmente na área de qualidade de software, contribuindo com organização,
+atenção aos detalhes, vontade de aprender e melhoria contínua.
