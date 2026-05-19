@@ -38,5 +38,9 @@ O objetivo do projeto é documentar testes manuais para um sistema fictício de 
 - Evidências
 - Estudos iniciais em automação
 
+- ## Status do Projeto
+  Em desenvolvimento.
+  Este projeto está sendo construído como parte dos meus estudos em QA/Testes de Software, com foco em testes manuais, documentação,   registro de bugs, evidências e estudos iniciais em automação de testes.
+
 ## Sobre mim
 Estou em transição de carreira para a área de TI, com foco em QA/Testes de Software. Tenho base inicial em lógica de programação, testes manuais, documentação de testes e análise de requisitos, e estou em constante aprendizado.
