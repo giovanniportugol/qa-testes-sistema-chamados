@@ -6,7 +6,7 @@
 |---|---|---|---|---|---|
 | CT-BB-001 | Cadastro com dados válidos | Acessar a tela inicial do BugBank | 1. Clicar em Registrar <br> 2. Informar e-mail válido <br> 3. Informar nome <br> 4. Informar senha <br> 5. Confirmar senha <br> 6. Clicar em Cadastrar | O sistema deve cadastrar o usuário com sucesso | Executado |
 | CT-BB-002 | Cadastro com e-mail inválido | Acessar a tela de cadastro | 1. Clicar em Registrar <br> 2. Informar e-mail inválido <br> 3. Preencher os demais campos <br> 4. Clicar em Cadastrar | O sistema deve exibir mensagem informando e-mail inválido | Executado |
-| CT-BB-003 | Cadastro com campos vazios | Acessar a tela de cadastro | 1. Clicar em Registrar <br> 2. Deixar os campos vazios <br> 3. Clicar em Cadastrar | O sistema deve informar que os campos obrigatórios devem ser preenchidos | Planejado |
+| CT-BB-003 | Cadastro com campos vazios | Acessar a tela de cadastro | 1. Clicar em Registrar <br> 2. Deixar os campos vazios <br> 3. Clicar em Cadastrar | O sistema deve informar que os campos obrigatórios devem ser preenchidos | Executado |
 
 ## Funcionalidade: Login
 
