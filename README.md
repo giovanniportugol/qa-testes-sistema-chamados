@@ -3,7 +3,8 @@
 Portfólio de QA com testes manuais, documentação, bugs, evidências e automação inicial.
 
 Este repositório faz parte do meu portfólio de estudos em QA/Testes de Software.  
-O objetivo do projeto é demonstrar organização, atenção aos detalhes, documentação técnica e base inicial em qualidade de software.
+O objetivo do projeto é demonstrar organização, atenção aos detalhes, documentação técnica e 
+base inicial em qualidade de software.
 
 ## Objetivo do Projeto
 
@@ -45,7 +46,8 @@ Evidências de Testes
 Automação de Testes
 Projeto Prático - BugBank
 
-Além do sistema fictício de chamados, este portfólio também contém uma prática de testes manuais no site BugBank.
+Além do sistema fictício de chamados, este portfólio também contém uma prática de testes
+ manuais no site BugBank.
 
 Projeto BugBank
 Casos de Teste BugBank
@@ -67,7 +69,8 @@ Status do Projeto
 Em desenvolvimento.
 
 Este projeto está sendo construído como parte dos meus estudos em QA/Testes de Software,
-com foco em testes manuais, documentação, registro de bugs, evidências e estudos iniciais em automação de testes.
+com foco em testes manuais, documentação, registro de bugs, evidências e estudos iniciais
+em automação de testes.
 
 Sobre mim
 
