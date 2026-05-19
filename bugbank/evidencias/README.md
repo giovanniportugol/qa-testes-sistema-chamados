@@ -1,1 +1,5 @@
-Adicionar pasta de evidências do BugBank
+## Evidências adicionadas
+
+- cadastro-usuario-sucesso.png
+- login-sucesso.png
+- login-campos-vazios.png
