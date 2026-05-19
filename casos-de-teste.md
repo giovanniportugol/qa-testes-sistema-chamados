@@ -20,7 +20,7 @@
 
 | ID | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
 |---|---|---|---|---|---|
-| CT-BB-007 | Transferência com dados válidos | Usuário logado e com saldo disponível | 1. Acessar a opção Transferência <br> 2. Informar conta destino válida <br> 3. Informar dígito válido <br> 4. Informar valor <br> 5. Clicar em Transferir | O sistema deve realizar a transferência com sucesso | Planejado |
+| CT-BB-007 | Transferência com dados válidos | Usuário logado e com saldo disponível | 1. Acessar a opção Transferência <br> 2. Informar conta destino válida <br> 3. Informar dígito válido <br> 4. Informar valor <br> 5. Clicar em Transferir | O sistema deve realizar a transferência com sucesso | Executado |
 | CT-BB-008 | Transferência sem informar valor | Usuário logado | 1. Acessar Transferência <br> 2. Informar conta destino <br> 3. Deixar valor em branco <br> 4. Clicar em Transferir | O sistema deve informar que o valor é obrigatório | Planejado |
 | CT-BB-009 | Transferência para conta inexistente | Usuário logado | 1. Acessar Transferência <br> 2. Informar conta inexistente <br> 3. Informar valor <br> 4. Clicar em Transferir | O sistema deve informar que a conta destino é inválida ou inexistente | Planejado |
 
