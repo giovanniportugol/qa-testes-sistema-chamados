@@ -31,3 +31,4 @@ As evidências podem incluir:
 - login-senha-invalida.png
 - login-campos-vazios.png
 - transferencia-sucesso.png
+- transferencia-conta-inexistente.png
