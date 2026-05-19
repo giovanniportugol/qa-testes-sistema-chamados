@@ -70,6 +70,9 @@ Este projeto está sendo construído como parte dos meus estudos em QA/Testes de
 documentação, registro de bugs, evidências e estudos iniciais
 em automação de testes.
 
+Este portfólio também contém evidências reais de execução de testes manuais no BugBank, incluindo cadastro de usuário,
+login com sucesso e validação de login com campos vazios.
+
 Sobre mim
 
 Estou em transição de carreira para a área de TI, com foco em QA/Testes de Software.
