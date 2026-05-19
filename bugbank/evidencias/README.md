@@ -32,4 +32,4 @@ As evidências podem incluir:
 - login-campos-vazios.png
 - transferencia-sucesso.png
 - transferencia-conta-inexistente.png
-- transferencia-conta-inexistente.png
+- extrato-transferencia.png
