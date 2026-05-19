@@ -14,7 +14,9 @@ As evidências podem incluir:
 
 - cadastro-usuario-sucesso.png
 - cadastro-email-invalido.png
+- cadastro-campos-vazios.png
 - login-sucesso.png
+- login-senha-invalida.png
 - login-campos-vazios.png
 - transferencia-sucesso.png
 - transferencia-conta-inexistente.png
@@ -24,5 +26,8 @@ As evidências podem incluir:
 
 - cadastro-usuario-sucesso.png
 - cadastro-email-invalido.png
+- cadastro-campos-vazios.png
 - login-sucesso.png
+- login-senha-invalida.png
 - login-campos-vazios.png
+- transferencia-sucesso.png
