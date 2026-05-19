@@ -1,19 +1,30 @@
-# Evidências de Testes
+# Evidências de Testes - BugBank
 
-Esta pasta será utilizada para armazenar evidências dos testes realizados no sistema fictício de chamados.
+Esta pasta será utilizada para armazenar as evidências dos testes manuais realizados no site BugBank.
 
 As evidências podem incluir:
 
 - Prints de tela
-- Resultados de testes
-- Registros de erros
-- Mensagens exibidas pelo sistema
+- Mensagens de erro
+- Mensagens de sucesso
+- Validações de campos obrigatórios
 - Comprovações de execução dos casos de teste
 
-## Exemplos de evidências planejadas
+## Evidências planejadas
 
+- cadastro-usuario-sucesso.png
+- cadastro-email-invalido.png
+- cadastro-campos-vazios.png
 - login-sucesso.png
 - login-campos-vazios.png
-- cadastro-chamado-sucesso.png
-- cadastro-chamado-sem-descricao.png
-- filtro-chamado-sem-resultado.png
+- transferencia-sucesso.png
+- transferencia-conta-inexistente.png
+- extrato-transferencia.png
+
+## Evidências adicionadas
+
+- cadastro-usuario-sucesso.png
+- cadastro-email-invalido.png
+- cadastro-campos-vazios.png
+- login-sucesso.png
+- login-campos-vazios.png
