@@ -17,6 +17,7 @@ qa-testes-sistema-chamados/
 - [Plano de Testes](plano-de-testes.md)
 - [Casos de Teste](casos-de-teste.md)
 - [Relatório de Bugs](relatorio-de-bugs.md)
+- [Matriz de Rastreabilidade](matriz-de-rastreabilidade.md)
 - [Evidências de Testes](evidencias/README.md)
 - [Automação de Testes](automacao/README.md)
 
