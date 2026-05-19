@@ -23,5 +23,6 @@ As evidências podem incluir:
 ## Evidências adicionadas
 
 - cadastro-usuario-sucesso.png
+- cadastro-email-invalido.png
 - login-sucesso.png
 - login-campos-vazios.png
