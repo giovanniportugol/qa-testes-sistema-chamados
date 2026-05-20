@@ -16,11 +16,14 @@ https://bugbank.netlify.app/
 - Node.js
 - GitHub
 
+## Cenários automatizados
+
+- Login com campos vazios
+
 ## Cenários planejados
 
 - Login com sucesso
 - Login com senha inválida
-- Login com campos vazios
 
 ## Objetivos do projeto
 
@@ -29,6 +32,49 @@ https://bugbank.netlify.app/
 - Validar mensagens de erro e sucesso
 - Evoluir meus conhecimentos em QA Automation
 - Complementar meu portfólio de QA/Testes de Software
+
+## Estrutura do projeto
+
+```text
+playwright/
+├── README.md
+├── package.json
+├── playwright.config.js
+└── tests/
+    └── login.spec.js
+```
+
+## Como executar os testes
+
+Para instalar as dependências:
+
+```bash
+npm install
+```
+
+Para instalar os navegadores do Playwright:
+
+```bash
+npx playwright install
+```
+
+Para executar os testes:
+
+```bash
+npm test
+```
+
+Para executar com navegador visível:
+
+```bash
+npm run test:headed
+```
+
+Para visualizar o relatório:
+
+```bash
+npm run report
+```
 
 ## Status
 
