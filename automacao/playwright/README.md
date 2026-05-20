@@ -20,9 +20,6 @@ https://bugbank.netlify.app/
 
 - Login com campos vazios
 - Login com senha inválida
-
-## Cenários planejados
-
 - Login com sucesso
 
 ## Objetivos do projeto
