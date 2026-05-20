@@ -1,26 +1,42 @@
-# Automação de Testes
+# Automação de Testes — Sistema de Chamados
 
-Esta pasta será utilizada para organizar meus estudos iniciais em automação de testes.
+## Objetivo
 
-O objetivo é evoluir gradualmente meus conhecimentos em ferramentas e linguagens utilizadas na área de QA, como:
+Esta pasta tem como objetivo organizar os estudos iniciais em automação de testes,  
+como parte do projeto acadêmico de QA/Testes de Software.
 
-- Java
-- Selenium
-- Playwright
-- Testes automatizados
-- Validação de funcionalidades
-- Execução de testes em aplicações web
+O foco inicial é compreender a estrutura básica de testes automatizados,  
+a organização dos arquivos e a escrita de scripts simples para validação de funcionalidades.
 
-## Objetivo dos estudos
-
-Aprender os conceitos básicos de automação de testes e aplicar, futuramente, scripts simples para validar funcionalidades de um sistema web, como:
-
-- Login
-- Cadastro de chamados
-- Consulta de chamados
-- Validação de campos obrigatórios
-- Mensagens de erro e sucesso
+---
 
 ## Status
 
 Em desenvolvimento.
+
+A automação deste projeto ainda está em fase inicial de estudo,  
+com foco em aprendizado, prática e evolução gradual.
+
+---
+
+## Tecnologias em Estudo
+
+- JavaScript
+- Node.js
+- Playwright
+- Git e GitHub
+- Estruturação de testes automatizados
+
+---
+
+## Estrutura da Pasta
+
+```txt
+automacao/
+├── README.md
+└── playwright/
+    ├── README.md
+    ├── package.json
+    ├── playwright.config.js
+    └── tests/
+        └── login.spec.js
