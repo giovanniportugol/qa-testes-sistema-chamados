@@ -19,11 +19,11 @@ https://bugbank.netlify.app/
 ## Cenários automatizados
 
 - Login com campos vazios
+- Login com senha inválida
 
 ## Cenários planejados
 
 - Login com sucesso
-- Login com senha inválida
 
 ## Objetivos do projeto
 
