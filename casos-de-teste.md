@@ -1,25 +1,37 @@
-# Casos de Teste - Sistema de Chamados
+# Casos de Teste — Sistema de Chamados
 
-## Funcionalidade: Login
+## Objetivo
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado |
-|---|---|---|---|---|
-| CT-001 | Login com dados válidos | Usuário cadastrado | 1. Acessar a tela de login <br> 2. Informar e-mail válido <br> 3. Informar senha válida <br> 4. Clicar em Entrar | O sistema deve permitir o acesso do usuário |
-| CT-002 | Login com senha incorreta | Usuário cadastrado | 1. Acessar a tela de login <br> 2. Informar e-mail válido <br> 3. Informar senha incorreta <br> 4. Clicar em Entrar | O sistema deve exibir mensagem de erro |
-| CT-003 | Login com campos vazios | Nenhuma | 1. Acessar a tela de login <br> 2. Deixar e-mail e senha vazios <br> 3. Clicar em Entrar | O sistema deve informar que os campos são obrigatórios |
+Este documento apresenta os casos de teste manuais criados para um sistema fictício de chamados,  
+utilizado como projeto acadêmico em desenvolvimento para estudos em QA/Testes de Software.
 
-## Funcionalidade: Cadastro de Chamado
+Os casos de teste têm como objetivo validar funcionalidades básicas do sistema,  
+como abertura de chamados, validação de campos obrigatórios, alteração de status,  
+consulta, conclusão e arquivamento.
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado |
-|---|---|---|---|---|
-| CT-004 | Criar chamado com dados válidos | Usuário logado | 1. Acessar a opção Novo Chamado <br> 2. Preencher título, descrição e categoria <br> 3. Clicar em Salvar | O sistema deve cadastrar o chamado com sucesso |
-| CT-005 | Criar chamado sem título | Usuário logado | 1. Acessar a opção Novo Chamado <br> 2. Deixar o campo título vazio <br> 3. Preencher os demais campos <br> 4. Clicar em Salvar | O sistema deve informar que o título é obrigatório |
-| CT-006 | Criar chamado sem descrição | Usuário logado | 1. Acessar a opção Novo Chamado <br> 2. Preencher o título <br> 3. Deixar descrição vazia <br> 4. Clicar em Salvar | O sistema deve informar que a descrição é obrigatória |
+---
 
-## Funcionalidade: Consulta de Chamados
+## Casos de Teste
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado |
-|---|---|---|---|---|
-| CT-007 | Consultar lista de chamados | Usuário logado e chamados cadastrados | 1. Acessar a tela Meus Chamados | O sistema deve exibir a lista de chamados cadastrados |
-| CT-008 | Filtrar chamado por status | Usuário logado e chamados cadastrados | 1. Acessar Meus Chamados <br> 2. Selecionar um status no filtro | O sistema deve exibir apenas os chamados com o status selecionado |
-| CT-009 | Consultar chamado inexistente | Usuário logado | 1. Acessar Meus Chamados <br> 2. Pesquisar por um número de chamado inexistente | O sistema deve informar que nenhum chamado foi encontrado |
+| ID | Funcionalidade | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
+|---|---|---|---|---|---|---|
+| CT-001 | Abertura de chamado | Criar chamado com dados válidos | Sistema disponível | 1. Acessar o sistema<br>2. Preencher título, descrição e categoria<br>3. Clicar em abrir chamado | O chamado deve ser criado com sucesso e receber um ID único | Aprovado |
+| CT-002 | Abertura de chamado | Tentar criar chamado sem título | Sistema disponível | 1. Acessar o sistema<br>2. Deixar o campo título vazio<br>3. Preencher os demais campos<br>4. Clicar em abrir chamado | O sistema deve exibir mensagem informando que o título é obrigatório | Aprovado |
+| CT-003 | Abertura de chamado | Tentar criar chamado sem descrição | Sistema disponível | 1. Acessar o sistema<br>2. Preencher o título<br>3. Deixar a descrição vazia<br>4. Clicar em abrir chamado | O sistema deve exibir mensagem informando que a descrição é obrigatória | Aprovado |
+| CT-004 | Listagem de chamados | Visualizar chamados cadastrados | Existir ao menos um chamado criado | 1. Acessar a lista de chamados | O sistema deve exibir os chamados cadastrados com ID, título, status e categoria | Aprovado |
+| CT-005 | Atualização de status | Alterar status de chamado aberto para em andamento | Existir chamado com status aberto | 1. Selecionar um chamado aberto<br>2. Alterar status para em andamento<br>3. Salvar alteração | O status do chamado deve ser atualizado para em andamento | Aprovado |
+| CT-006 | Conclusão de chamado | Finalizar chamado em andamento | Existir chamado com status em andamento | 1. Selecionar chamado em andamento<br>2. Alterar status para concluído<br>3. Salvar alteração | O chamado deve ser marcado como concluído | Aprovado |
+| CT-007 | Arquivamento de chamado | Arquivar chamado concluído | Existir chamado concluído | 1. Selecionar chamado concluído<br>2. Clicar em arquivar | O chamado deve ser arquivado e removido da lista principal | Aprovado |
+| CT-008 | Consulta de chamado | Buscar chamado pelo ID | Existir chamado cadastrado | 1. Informar o ID do chamado<br>2. Executar a busca | O sistema deve retornar o chamado correspondente ao ID informado | Aprovado |
+| CT-009 | Consulta de chamado | Buscar chamado inexistente | Sistema disponível | 1. Informar um ID inexistente<br>2. Executar a busca | O sistema deve informar que nenhum chamado foi encontrado | Aprovado |
+| CT-010 | Validação de campos | Tentar abrir chamado sem preencher campos obrigatórios | Sistema disponível | 1. Acessar o sistema<br>2. Não preencher nenhum campo<br>3. Clicar em abrir chamado | O sistema deve exibir mensagens de validação para os campos obrigatórios | Aprovado |
+
+---
+
+## Observações
+
+Os casos de teste foram criados com finalidade acadêmica e de portfólio,  
+simulando cenários básicos de validação em um sistema de chamados.
+
+Este documento poderá ser atualizado conforme novos cenários, melhorias  
+e funcionalidades forem adicionados ao projeto.
