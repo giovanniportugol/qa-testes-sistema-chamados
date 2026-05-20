@@ -37,3 +37,84 @@ qa-testes-sistema-chamados/
 ├── evidencias/
 ├── automacao/
 └── bugbank/
+```
+
+---
+
+## Documentação do Projeto
+
+- [Plano de Testes](plano-de-testes.md)
+- [Casos de Teste](casos-de-teste.md)
+- [Relatório de Bugs](relatorio-de-bugs.md)
+- [Matriz de Rastreabilidade](matriz-de-rastreabilidade.md)
+- [Evidências de Testes](evidencias/README.md)
+- [Automação de Testes](automacao/README.md)
+
+---
+
+## Projeto Prático — BugBank
+
+Além do sistema fictício de chamados, este portfólio também contém uma prática de testes manuais  
+no site BugBank, com foco em simular cenários reais de validação de funcionalidades.
+
+Foram documentados testes envolvendo:
+
+- Cadastro de usuário
+- Login
+- Transferência
+- Consulta de extrato
+- Validação de campos obrigatórios
+- Cenários positivos e negativos
+
+### Documentação BugBank
+
+- [Projeto BugBank](bugbank/README.md)
+- [Casos de Teste BugBank](bugbank/casos-de-teste-bugbank.md)
+- [Relatório de Bugs BugBank](bugbank/relatorio-de-bugs-bugbank.md)
+- [Evidências BugBank](bugbank/evidencias/README.md)
+
+---
+
+## Habilidades Trabalhadas
+
+- Testes manuais
+- Criação de casos de teste
+- Documentação de testes
+- Registro de bugs
+- Organização de evidências
+- Matriz de rastreabilidade
+- Análise de requisitos
+- Atenção aos detalhes
+- Comunicação técnica
+- Lógica de programação
+- Estudos iniciais em automação de testes
+
+---
+
+## Status do Projeto
+
+Em desenvolvimento.
+
+Este projeto está sendo construído como parte dos meus estudos em QA/Testes de Software,  
+com foco em aprendizado prático, documentação, organização e evolução contínua.
+
+---
+
+## Sobre o Projeto
+
+Este repositório não representa um sistema comercial real.  
+Ele foi criado com finalidade acadêmica e de portfólio, para demonstrar minha evolução  
+nos estudos de qualidade de software e minha capacidade de organizar documentação técnica.
+
+---
+
+## Sobre mim
+
+Sou estudante de Análise e Desenvolvimento de Sistemas pela Estácio  
+e estou iniciando minha trajetória profissional na área de Tecnologia da Informação.
+
+Tenho interesse em oportunidades iniciais, estágio ou posições júnior nas áreas de QA/Testes,  
+Suporte Técnico e Desenvolvimento Web.
+
+Busco evoluir profissionalmente com dedicação, organização, disposição para aprender  
+e melhoria contínua.
