@@ -10,7 +10,12 @@ A automação foi criada para validar cenários de login no BugBank, complementa
 - Login com senha inválida
 - Login com sucesso
 
-### Documentação da Automação
+### Estrutura da automação
 
-- [Automação Playwright](automacao/playwright/README.md)
-- [Teste Automatizado de Login](automacao/playwright/tests/login.spec.js)
+```text
+automacao/playwright/
+├── README.md
+├── package.json
+├── playwright.config.js
+└── tests/
+    └── login.spec.js
