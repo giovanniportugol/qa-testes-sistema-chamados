@@ -1,96 +1,50 @@
-# Relatório de Bugs - BugBank
+# Relatório de Bugs — BugBank
 
-## Bug-BB-001: Sistema permite tentativa de login com campos vazios
+## Objetivo
 
-**Funcionalidade:** Login  
-**Severidade:** Média  
-**Prioridade:** Alta  
-**Status:** Planejado para validação  
+Este documento apresenta exemplos de bugs identificados durante a prática de testes manuais  
+no site BugBank, utilizado como ambiente de estudo em QA/Testes de Software.
 
-### Descrição
-
-Ao clicar no botão "Acessar" sem preencher os campos de e-mail e senha, o sistema deve exibir mensagens de validação informando que os campos são obrigatórios.
-
-### Passos para reproduzir
-
-1. Acessar o site BugBank
-2. Deixar os campos e-mail e senha vazios
-3. Clicar no botão "Acessar"
-
-### Resultado esperado
-
-O sistema deve exibir mensagens informando que os campos obrigatórios precisam ser preenchidos.
-
-### Resultado obtido
-
-A validar durante a execução dos testes.
-
-### Evidência
-
-A evidência será adicionada na pasta `bugbank/evidencias/`.
+O objetivo é demonstrar a documentação de defeitos, registrando descrição, passos para reprodução,  
+resultado esperado, resultado obtido, severidade, prioridade e status.
 
 ---
 
-## Bug-BB-002: Cadastro com e-mail inválido
+## Bugs Identificados
 
-**Funcionalidade:** Cadastro de Usuário  
-**Severidade:** Média  
-**Prioridade:** Alta  
-**Status:** Planejado para validação  
-
-### Descrição
-
-O sistema deve validar corretamente o formato do e-mail informado no cadastro de usuário.
-
-### Passos para reproduzir
-
-1. Acessar o site BugBank
-2. Clicar em "Registrar"
-3. Informar um e-mail em formato inválido
-4. Preencher os demais campos obrigatórios
-5. Clicar em "Cadastrar"
-
-### Resultado esperado
-
-O sistema deve exibir uma mensagem informando que o e-mail é inválido.
-
-### Resultado obtido
-
-A validar durante a execução dos testes.
-
-### Evidência
-
-A evidência será adicionada na pasta `bugbank/evidencias/`.
+| ID | Funcionalidade | Título do Bug | Passos para Reproduzir | Resultado Esperado | Resultado Obtido | Severidade | Prioridade | Status |
+|---|---|---|---|---|---|---|---|---|
+| BUG-BB-001 | Cadastro | Sistema permite cadastro com e-mail em formato inválido | 1. Acessar o BugBank<br>2. Clicar em Registrar<br>3. Preencher e-mail em formato inválido<br>4. Preencher os demais campos<br>5. Clicar em Cadastrar | O sistema deve validar o formato do e-mail e impedir o cadastro | O sistema permite prosseguir com e-mail inválido | Média | Alta | Aberto |
+| BUG-BB-002 | Cadastro | Mensagem de erro pouco clara ao cadastrar com campos vazios | 1. Acessar a tela de cadastro<br>2. Não preencher os campos obrigatórios<br>3. Clicar em Cadastrar | O sistema deve exibir mensagens claras para cada campo obrigatório | O sistema exibe mensagens genéricas ou pouco claras | Baixa | Média | Aberto |
+| BUG-BB-003 | Login | Login com campos vazios exibe apenas uma mensagem de obrigatoriedade | 1. Acessar a página inicial<br>2. Deixar e-mail e senha vazios<br>3. Clicar em Acessar | O sistema deve exibir validação para os campos de e-mail e senha | O sistema exibe apenas uma mensagem de campo obrigatório | Baixa | Média | Aberto |
+| BUG-BB-004 | Login | Mensagem de erro de login inválido não orienta o usuário | 1. Informar e-mail válido<br>2. Informar senha inválida<br>3. Clicar em Acessar | O sistema deve informar que os dados estão incorretos de forma clara | A mensagem apresentada é genérica e não orienta o usuário | Baixa | Baixa | Aberto |
+| BUG-BB-005 | Transferência | Sistema permite tentativa de transferência sem valor preenchido | 1. Realizar login<br>2. Acessar Transferência<br>3. Preencher dados da conta destino<br>4. Deixar valor vazio<br>5. Confirmar transferência | O sistema deve impedir a transferência e solicitar preenchimento do valor | O sistema não valida corretamente o campo valor | Alta | Alta | Aberto |
+| BUG-BB-006 | Extrato | Extrato não apresenta detalhes suficientes da movimentação | 1. Realizar login<br>2. Efetuar uma transferência<br>3. Acessar Extrato | O extrato deve exibir informações claras da movimentação, como data, valor e descrição | O extrato apresenta informações incompletas ou pouco detalhadas | Média | Média | Aberto |
 
 ---
 
-## Bug-BB-003: Transferência para conta inexistente
+## Classificação de Severidade
 
-**Funcionalidade:** Transferência  
-**Severidade:** Alta  
-**Prioridade:** Alta  
-**Status:** Planejado para validação  
+- **Baixa:** problema simples, com baixo impacto na utilização da aplicação.
+- **Média:** problema que afeta a experiência do usuário ou uma funcionalidade importante.
+- **Alta:** problema que compromete uma funcionalidade principal.
+- **Crítica:** problema que impede o uso da aplicação ou pode causar perda de dados.
 
-### Descrição
+---
 
-O sistema não deve permitir transferência para uma conta inexistente ou inválida.
+## Classificação de Prioridade
 
-### Passos para reproduzir
+- **Baixa:** pode ser corrigido futuramente.
+- **Média:** deve ser corrigido após itens mais urgentes.
+- **Alta:** deve ser corrigido com prioridade.
+- **Crítica:** deve ser corrigido imediatamente.
 
-1. Acessar o BugBank com um usuário válido
-2. Clicar em "Transferência"
-3. Informar uma conta inexistente
-4. Informar um valor para transferência
-5. Clicar em "Transferir"
+---
 
-### Resultado esperado
+## Observações
 
-O sistema deve exibir uma mensagem informando que a conta destino é inválida ou inexistente.
+Os bugs descritos neste documento foram registrados com finalidade acadêmica e de portfólio,  
+como parte dos estudos em QA/Testes de Software.
 
-### Resultado obtido
-
-A validar durante a execução dos testes.
-
-### Evidência
-
-A evidência será adicionada na pasta `bugbank/evidencias/`.
+Este relatório poderá ser atualizado conforme novos testes forem executados,  
+novos comportamentos forem observados e novas evidências forem adicionadas.
