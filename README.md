@@ -35,8 +35,21 @@ qa-testes-sistema-chamados/
 ├── relatorio-de-bugs.md
 ├── matriz-de-rastreabilidade.md
 ├── evidencias/
+│   └── README.md
 ├── automacao/
+│   ├── README.md
+│   └── playwright/
+│       ├── README.md
+│       ├── package.json
+│       ├── playwright.config.js
+│       └── tests/
+│           └── login.spec.js
 └── bugbank/
+    ├── README.md
+    ├── casos-de-teste-bugbank.md
+    ├── relatorio-de-bugs-bugbank.md
+    └── evidencias/
+        └── README.md
 ```
 
 ---
@@ -49,6 +62,7 @@ qa-testes-sistema-chamados/
 - [Matriz de Rastreabilidade](matriz-de-rastreabilidade.md)
 - [Evidências de Testes](evidencias/README.md)
 - [Automação de Testes](automacao/README.md)
+- [Automação com Playwright](automacao/playwright/README.md)
 
 ---
 
@@ -88,6 +102,7 @@ Foram documentados testes envolvendo:
 - Comunicação técnica
 - Lógica de programação
 - Estudos iniciais em automação de testes
+- Organização de repositório no GitHub
 
 ---
 
