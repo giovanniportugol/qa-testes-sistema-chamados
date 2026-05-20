@@ -27,30 +27,28 @@ O projeto inclui:
 
 ## Estrutura do Repositório
 
-```txt
-qa-testes-sistema-chamados/
-├── README.md
-├── plano-de-testes.md
-├── casos-de-teste.md
-├── relatorio-de-bugs.md
-├── matriz-de-rastreabilidade.md
-├── evidencias/
-│   └── README.md
-├── automacao/
-│   ├── README.md
-│   └── playwright/
-│       ├── README.md
-│       ├── package.json
-│       ├── playwright.config.js
-│       └── tests/
-│           └── login.spec.js
-└── bugbank/
+    qa-testes-sistema-chamados/
     ├── README.md
-    ├── casos-de-teste-bugbank.md
-    ├── relatorio-de-bugs-bugbank.md
-    └── evidencias/
-        └── README.md
-```
+    ├── plano-de-testes.md
+    ├── casos-de-teste.md
+    ├── relatorio-de-bugs.md
+    ├── matriz-de-rastreabilidade.md
+    ├── evidencias/
+    │   └── README.md
+    ├── automacao/
+    │   ├── README.md
+    │   └── playwright/
+    │       ├── README.md
+    │       ├── package.json
+    │       ├── playwright.config.js
+    │       └── tests/
+    │           └── login.spec.js
+    └── bugbank/
+        ├── README.md
+        ├── casos-de-teste-bugbank.md
+        ├── relatorio-de-bugs-bugbank.md
+        └── evidencias/
+            └── README.md
 
 ---
 
