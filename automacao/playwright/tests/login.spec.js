@@ -19,4 +19,15 @@ test.describe('Testes de Login - BugBank', () => {
 
     await expect(page.getByText('Usuário ou senha inválido.')).toBeVisible();
   });
+
+  test('Login com sucesso', async ({ page }) => {
+    await page.goto('https://bugbank.netlify.app/');
+
+    await page.locator('input[name="email"]').fill('giovanni.qa.teste@email.com');
+    await page.locator('input[name="password"]').fill('Teste@123');
+
+    await page.getByRole('button', { name: 'Acessar' }).click();
+
+    await expect(page.getByText('Bem vindo')).toBeVisible();
+  });
 });
