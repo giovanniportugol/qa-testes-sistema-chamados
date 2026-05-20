@@ -6,6 +6,6 @@ test.describe('Testes de Login - BugBank', () => {
 
     await page.getByRole('button', { name: 'Acessar' }).click();
 
-    await expect(page.getByText('É campo obrigatório')).toBeVisible();
+    await expect(page.getByText('É campo obrigatório').first()).toBeVisible();
   });
 });
