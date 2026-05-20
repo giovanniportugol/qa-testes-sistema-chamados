@@ -1,32 +1,36 @@
-# Casos de Teste - BugBank
+# Casos de Teste — BugBank
 
-## Funcionalidade: Cadastro de Usuário
+## Objetivo
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
-|---|---|---|---|---|---|
-| CT-BB-001 | Cadastro com dados válidos | Acessar a tela inicial do BugBank | 1. Clicar em Registrar <br> 2. Informar e-mail válido <br> 3. Informar nome <br> 4. Informar senha <br> 5. Confirmar senha <br> 6. Clicar em Cadastrar | O sistema deve cadastrar o usuário com sucesso | Executado |
-| CT-BB-002 | Cadastro com e-mail inválido | Acessar a tela de cadastro | 1. Clicar em Registrar <br> 2. Informar e-mail inválido <br> 3. Preencher os demais campos <br> 4. Clicar em Cadastrar | O sistema deve exibir mensagem informando e-mail inválido | Executado |
-| CT-BB-003 | Cadastro com campos vazios | Acessar a tela de cadastro | 1. Clicar em Registrar <br> 2. Deixar os campos vazios <br> 3. Clicar em Cadastrar | O sistema deve informar que os campos obrigatórios devem ser preenchidos | Executado |
+Este documento apresenta casos de teste manuais elaborados para o site BugBank,  
+utilizado como ambiente de prática no projeto acadêmico de QA/Testes de Software.
 
-## Funcionalidade: Login
+O objetivo é validar funcionalidades básicas da aplicação, como cadastro, login,  
+validação de campos obrigatórios, transferência e consulta de extrato.
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
-|---|---|---|---|---|---|
-| CT-BB-004 | Login com dados válidos | Usuário cadastrado | 1. Informar e-mail válido <br> 2. Informar senha válida <br> 3. Clicar em Acessar | O sistema deve permitir o acesso à conta do usuário | Executado |
-| CT-BB-005 | Login com senha inválida | Usuário cadastrado | 1. Informar e-mail válido <br> 2. Informar senha inválida <br> 3. Clicar em Acessar | O sistema deve exibir mensagem de erro de autenticação | Executado |
-| CT-BB-006 | Login com campos vazios | Acessar a tela inicial do BugBank | 1. Deixar e-mail e senha vazios <br> 2. Clicar em Acessar | O sistema deve informar que os campos são obrigatórios | Executado |
+---
 
-## Funcionalidade: Transferência
+## Casos de Teste
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
-|---|---|---|---|---|---|
-| CT-BB-007 | Transferência com dados válidos | Usuário logado e com saldo disponível | 1. Acessar a opção Transferência <br> 2. Informar conta destino válida <br> 3. Informar dígito válido <br> 4. Informar valor <br> 5. Clicar em Transferir | O sistema deve realizar a transferência com sucesso | Executado |
-| CT-BB-008 | Transferência sem informar valor | Usuário logado | 1. Acessar Transferência <br> 2. Informar conta destino <br> 3. Deixar valor em branco <br> 4. Clicar em Transferir | O sistema deve informar que o valor é obrigatório | Planejado |
-| CT-BB-009 | Transferência para conta inexistente | Usuário logado | 1. Acessar Transferência <br> 2. Informar conta inexistente <br> 3. Informar valor <br> 4. Clicar em Transferir | O sistema deve informar que a conta destino é inválida ou inexistente | Executado |
+| ID | Funcionalidade | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
+|---|---|---|---|---|---|---|
+| CT-BB-001 | Cadastro | Realizar cadastro com dados válidos | Acessar a página inicial do BugBank | 1. Clicar em Registrar<br>2. Preencher e-mail válido<br>3. Preencher nome<br>4. Preencher senha<br>5. Confirmar senha<br>6. Clicar em Cadastrar | Conta criada com sucesso e mensagem de confirmação exibida | Aprovado |
+| CT-BB-002 | Cadastro | Tentar cadastrar sem preencher campos obrigatórios | Acessar a tela de cadastro | 1. Clicar em Registrar<br>2. Não preencher os campos obrigatórios<br>3. Clicar em Cadastrar | O sistema deve exibir mensagens informando os campos obrigatórios | Aprovado |
+| CT-BB-003 | Cadastro | Tentar cadastrar com senhas diferentes | Acessar a tela de cadastro | 1. Clicar em Registrar<br>2. Preencher os dados<br>3. Informar senha e confirmação diferentes<br>4. Clicar em Cadastrar | O sistema deve exibir mensagem informando que as senhas não conferem | Aprovado |
+| CT-BB-004 | Login | Realizar login com usuário válido | Usuário previamente cadastrado | 1. Informar e-mail válido<br>2. Informar senha válida<br>3. Clicar em Acessar | O sistema deve permitir acesso à conta e exibir a tela inicial do usuário | Aprovado |
+| CT-BB-005 | Login | Tentar login com senha inválida | Usuário previamente cadastrado | 1. Informar e-mail válido<br>2. Informar senha inválida<br>3. Clicar em Acessar | O sistema deve exibir mensagem de usuário ou senha inválido | Aprovado |
+| CT-BB-006 | Login | Tentar login com campos vazios | Acessar a página inicial do BugBank | 1. Não preencher e-mail e senha<br>2. Clicar em Acessar | O sistema deve exibir mensagens de campo obrigatório | Aprovado |
+| CT-BB-007 | Transferência | Realizar transferência com dados válidos | Usuário logado e com saldo disponível | 1. Acessar a opção Transferência<br>2. Informar banco, agência, conta e valor<br>3. Confirmar transferência | Transferência realizada com sucesso e mensagem de confirmação exibida | Aprovado |
+| CT-BB-008 | Transferência | Tentar transferir sem informar valor | Usuário logado | 1. Acessar Transferência<br>2. Preencher dados da conta destino<br>3. Deixar valor vazio<br>4. Confirmar transferência | O sistema deve exibir mensagem de validação para o valor obrigatório | Aprovado |
+| CT-BB-009 | Extrato | Consultar extrato da conta | Usuário logado | 1. Acessar a opção Extrato | O sistema deve exibir as movimentações da conta | Aprovado |
+| CT-BB-010 | Logout | Encerrar sessão do usuário | Usuário logado | 1. Clicar em Sair | O sistema deve encerrar a sessão e retornar para a tela inicial | Aprovado |
 
-## Funcionalidade: Extrato
+---
 
-| ID | Cenário | Pré-condição | Passos | Resultado Esperado | Status |
-|---|---|---|---|---|---|
-| CT-BB-010 | Consultar extrato | Usuário logado | 1. Acessar a opção Extrato | O sistema deve exibir as movimentações da conta | Executado |
-| CT-BB-011 | Validar transferência no extrato | Transferência realizada com sucesso | 1. Acessar Extrato <br> 2. Verificar movimentação realizada | O sistema deve exibir a transferência efetuada no extrato | Planejado |
+## Observações
+
+Os casos de teste foram criados com finalidade acadêmica e de portfólio,  
+simulando uma documentação básica de QA para uma aplicação web.
+
+Este documento poderá ser atualizado conforme novos cenários forem testados  
+e novas evidências forem adicionadas.
