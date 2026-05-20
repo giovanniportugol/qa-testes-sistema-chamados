@@ -1,0 +1,24 @@
+{
+  "name": "automacao-login-bugbank",
+  "version": "1.0.0",
+  "description": "Automação de testes de login no BugBank utilizando Playwright e JavaScript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report"
+  },
+  "keywords": [
+    "qa",
+    "testes",
+    "automacao",
+    "playwright",
+    "javascript",
+    "bugbank"
+  ],
+  "author": "Giovanni de Souza Gomes",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.48.0"
+  }
+}
