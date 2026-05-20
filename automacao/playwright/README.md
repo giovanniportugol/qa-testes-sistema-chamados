@@ -1,78 +1,39 @@
-# Automação de Login - BugBank
+# Automação com Playwright
 
-Este projeto faz parte dos meus estudos iniciais em automação de testes utilizando Playwright e JavaScript.
+## Objetivo
 
-O objetivo é automatizar cenários simples de login no site BugBank, aplicando conceitos de QA, testes funcionais e validação de comportamento esperado em uma aplicação web.
+Esta pasta contém os estudos iniciais de automação de testes utilizando Playwright,  
+como parte do projeto acadêmico de QA/Testes de Software.
 
-## Site testado
+O objetivo é praticar a estrutura básica de um projeto de automação,  
+organização dos arquivos, configuração inicial e criação de testes simples.
 
-BugBank  
-https://bugbank.netlify.app/
+---
 
-## Ferramentas utilizadas
+## Status
 
-- Playwright
+Em desenvolvimento.
+
+A automação ainda está em fase inicial de aprendizado,  
+com foco em compreender conceitos básicos e evoluir gradualmente.
+
+---
+
+## Tecnologias Utilizadas
+
 - JavaScript
 - Node.js
-- GitHub
+- Playwright
+- Git e GitHub
 
-## Cenários automatizados
+---
 
-- Login com campos vazios
-- Login com senha inválida
-- Login com sucesso
+## Estrutura da Pasta
 
-## Objetivos do projeto
-
-- Praticar automação de testes web
-- Automatizar cenários funcionais simples
-- Validar mensagens de erro e sucesso
-- Evoluir meus conhecimentos em QA Automation
-- Complementar meu portfólio de QA/Testes de Software
-
-## Estrutura do projeto
-
-```text
+```txt
 playwright/
 ├── README.md
 ├── package.json
 ├── playwright.config.js
 └── tests/
     └── login.spec.js
-```
-
-## Como executar os testes
-
-Para instalar as dependências:
-
-```bash
-npm install
-```
-
-Para instalar os navegadores do Playwright:
-
-```bash
-npx playwright install
-```
-
-Para executar os testes:
-
-```bash
-npm test
-```
-
-Para executar com navegador visível:
-
-```bash
-npm run test:headed
-```
-
-Para visualizar o relatório:
-
-```bash
-npm run report
-```
-
-## Status
-
-Em desenvolvimento.
