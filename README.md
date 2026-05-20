@@ -16,26 +16,19 @@ Documentar testes manuais para um sistema fictício de chamados, incluindo:
 - Evidências de testes
 - Estudos iniciais em automação
 
-## Estrutura inicial
+## Estrutura do Repositório
 
-```text
-qa-testes-sistema-chamados/
-├── README.md
-├── plano-de-testes.md
-├── casos-de-teste.md
-├── relatorio-de-bugs.md
-├── matriz-de-rastreabilidade.md
-├── evidencias/
-│   └── README.md
-├── automacao/
-│   └── README.md
-└── bugbank/
-    ├── README.md
-    ├── casos-de-teste-bugbank.md
-    ├── relatorio-de-bugs-bugbank.md
-    └── evidencias/
-        └── README.md
-```
+- README.md
+- plano-de-testes.md
+- casos-de-teste.md
+- relatorio-de-bugs.md
+- matriz-de-rastreabilidade.md
+- evidencias/README.md
+- automacao/README.md
+- bugbank/README.md
+- bugbank/casos-de-teste-bugbank.md
+- bugbank/relatorio-de-bugs-bugbank.md
+- bugbank/evidencias/README.md
 
 ## Documentação do Projeto
 
@@ -50,7 +43,7 @@ qa-testes-sistema-chamados/
 
 Além do sistema fictício de chamados, este portfólio também contém uma prática de testes manuais no site BugBank.
 
-O projeto BugBank possui **9 testes executados com evidências reais**, cobrindo cenários de cadastro, login, transferência e consulta de extrato.
+O projeto BugBank possui testes executados com evidências reais, cobrindo cenários de cadastro, login, transferência e consulta de extrato.
 
 ### Testes executados
 
