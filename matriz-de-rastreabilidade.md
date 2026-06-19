@@ -8,6 +8,19 @@ A matriz tem como objetivo relacionar requisitos, casos de teste, bugs encontrad
 
 ---
 
+## Informações do Projeto
+
+| Campo               | Informação                                                |
+| ------------------- | --------------------------------------------------------- |
+| Projeto             | Sistema de Chamados                                       |
+| Versão              | 1.0                                                       |
+| Tipo de Teste       | Testes Funcionais Manuais                                 |
+| Data da Atualização | Junho/2026                                                |
+| Responsável         | Giovanni de Souza Gomes                                   |
+| Objetivo do Projeto | Estudo e composição de portfólio em QA/Testes de Software |
+
+---
+
 ## Matriz de Rastreabilidade
 
 | ID do Requisito | Descrição do Requisito                                           | Caso de Teste Relacionado | Bug Relacionado | Status   |
@@ -61,6 +74,22 @@ A matriz tem como objetivo relacionar requisitos, casos de teste, bugs encontrad
 A cobertura dos requisitos foi realizada por meio dos casos de teste definidos para o projeto.
 
 Todos os requisitos funcionais identificados foram associados a pelo menos um caso de teste, garantindo rastreabilidade completa entre requisitos, cenários de teste e defeitos encontrados.
+
+---
+
+## Indicadores de Qualidade
+
+| Métrica                   | Resultado |
+| ------------------------- | --------- |
+| Cobertura de Requisitos   | 100%      |
+| Requisitos Validados      | 37,5%     |
+| Requisitos com Defeitos   | 62,5%     |
+| Casos de Teste Executados | 100%      |
+| Bugs Identificados        | 5         |
+
+Os indicadores demonstram que todos os requisitos definidos foram testados e rastreados.
+
+Os defeitos identificados foram documentados e associados aos respectivos requisitos impactados, permitindo análise e acompanhamento durante o processo de testes.
 
 ---
 
