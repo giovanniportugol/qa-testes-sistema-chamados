@@ -19,11 +19,13 @@
 
 ## 📖 Sobre o Projeto
 
-Este repositório reúne um conjunto de artefatos e práticas de **Quality Assurance (QA)** desenvolvidos como parte do meu portfólio profissional.
+Este repositório reúne um conjunto de artefatos e práticas de **Quality Assurance (QA)** desenvolvidos como parte dos meus estudos em **Análise e Desenvolvimento de Sistemas** e da construção do meu portfólio profissional.
 
-O projeto foi criado para demonstrar conhecimentos em planejamento de testes, elaboração de casos de teste, registro de bugs, matriz de rastreabilidade, testes de APIs REST, automação com Playwright e organização da documentação técnica.
+O projeto foi criado para consolidar conhecimentos em planejamento de testes, elaboração de casos de teste, registro de bugs, matriz de rastreabilidade, testes de APIs REST, automação com Playwright e organização da documentação técnica.
 
-Além de consolidar meu aprendizado durante a graduação em **Análise e Desenvolvimento de Sistemas**, este portfólio representa minha preparação para atuar em oportunidades de **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
+Embora tenha origem acadêmica, sua estrutura foi desenvolvida com base em práticas utilizadas no mercado de desenvolvimento de software, simulando atividades desempenhadas por profissionais de Quality Assurance.
+
+Este portfólio demonstra minha evolução técnica, meu compromisso com o aprendizado contínuo e minha preparação para atuar em oportunidades nas áreas de **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
 
 ---
 
