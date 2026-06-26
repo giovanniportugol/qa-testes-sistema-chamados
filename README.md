@@ -90,6 +90,7 @@ Este projeto foi desenvolvido utilizando tecnologias e ferramentas amplamente em
 * Versionamento de Código com Git e GitHub
 
 ## 📂 Estrutura do Repositório
+A organização do repositório foi planejada para facilitar a navegação, a manutenção da documentação e a evolução contínua do projeto, reunindo os principais artefatos utilizados em processos de Quality Assurance (QA).
 
 ```text
 qa-testes-sistema-chamados/
