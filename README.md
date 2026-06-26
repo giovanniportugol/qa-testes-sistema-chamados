@@ -2,13 +2,13 @@
 
 Portfólio desenvolvido para demonstrar conhecimentos em **Garantia de Qualidade (QA)**, incluindo planejamento de testes, testes manuais, testes de APIs REST, automação com Playwright e documentação técnica.
 
-**Status | QA | Postman | Playwright | JavaScript | Git | GitHub | License**
+**Status | QA | Postman | Playwright | JavaScript | Git | GitHub | Licença**
 
 ---
 
 ## 📖 Sobre o Projeto
 
-Este repositório reúne um conjunto de artefatos e práticas de **Garantia de Qualidade (QA)** **desenvolvidas** como parte dos meus estudos em **Análise e Desenvolvimento de Sistemas** e da construção do meu portfólio profissional.
+Este repositório reúne um conjunto de **artefatos e práticas de Garantia de Qualidade (QA)** desenvolvidos como parte dos meus estudos em **Análise e Desenvolvimento de Sistemas** e da construção do meu portfólio profissional.
 
 O projeto foi criado para consolidar conhecimentos em planejamento de testes, elaboração de casos de teste, registro de bugs, matriz de rastreabilidade, testes de APIs REST, automação com Playwright e organização da documentação técnica.
 
