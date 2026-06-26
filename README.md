@@ -2,7 +2,7 @@
 
 # 🧪 Portfólio de Controle de Qualidade — Sistema de Chamados
 
-**Projeto de portfólio desenvolvido para demonstrar conhecimentos em Quality Assurance (QA), incluindo planejamento de testes, testes manuais, testes de APIs REST, automação com Playwright e documentação técnica.**
+**Portfólio desenvolvido para demonstrar conhecimentos em Quality Assurance (QA), incluindo planejamento de testes, testes manuais, testes de APIs REST, automação com Playwright e documentação técnica.**
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-success)
 ![QA](https://img.shields.io/badge/QA-Portfolio-blue)
@@ -19,11 +19,11 @@
 
 ## 📖 Sobre o Projeto
 
-Este projeto foi desenvolvido como parte do meu portfólio de estudos em **Quality Assurance (QA)**, com o objetivo de reunir, organizar e documentar práticas utilizadas em projetos reais de testes de software.
+Este repositório reúne um conjunto de artefatos e práticas de **Quality Assurance (QA)** desenvolvidos como parte do meu portfólio profissional.
 
-O repositório apresenta desde o planejamento dos testes até a documentação dos resultados, contemplando testes manuais, testes de APIs REST, automação com Playwright e boas práticas de organização da documentação técnica.
+O projeto foi criado para demonstrar conhecimentos em planejamento de testes, elaboração de casos de teste, registro de bugs, matriz de rastreabilidade, testes de APIs REST, automação com Playwright e organização da documentação técnica.
 
-O projeto demonstra minha evolução prática como estudante de **Análise e Desenvolvimento de Sistemas**, reforçando competências importantes para oportunidades em **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
+Além de consolidar meu aprendizado durante a graduação em **Análise e Desenvolvimento de Sistemas**, este portfólio representa minha preparação para atuar em oportunidades de **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
 
 ---
 
@@ -42,7 +42,7 @@ O projeto demonstra minha evolução prática como estudante de **Análise e Des
 
 ## 🎯 Objetivo do Projeto
 
-Documentar e organizar testes para um sistema fictício de chamados, simulando atividades realizadas por profissionais de Quality Assurance em projetos de desenvolvimento de software.
+Documentar e organizar atividades de testes para um sistema fictício de chamados, simulando práticas utilizadas por profissionais de **Quality Assurance (QA)** em projetos de desenvolvimento de software.
 
 Este portfólio contempla:
 
