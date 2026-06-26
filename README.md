@@ -32,11 +32,11 @@ Este projeto foi desenvolvido utilizando ferramentas e tecnologias voltadas para
 
 ## 🔧 Ferramentas
 
-* Git
-* GitHub
-* Postman
-* Playwright
-* BugBank (Ambiente de Testes)
+- Git
+- GitHub
+- Postman
+- Playwright
+- BugBank (Ambiente de Testes)
 
 ## 🧪 Conceitos de QA Aplicados
 
