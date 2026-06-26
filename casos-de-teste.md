@@ -1,13 +1,16 @@
-# Casos de Teste — Sistema de Chamados
+# 🧪 Casos de Teste — Sistema de Chamados
 
 ## Objetivo
 
-Este documento apresenta os casos de teste manuais criados para um sistema fictício de chamados,  
-utilizado como projeto acadêmico em desenvolvimento para estudos em QA/Testes de Software.
+Este documento reúne os casos de teste elaborados para validar as principais funcionalidades do Sistema de Chamados.
 
-Os casos de teste têm como objetivo validar funcionalidades básicas do sistema,  
-como abertura de chamados, validação de campos obrigatórios, alteração de status,  
-consulta, conclusão e arquivamento.
+Os cenários foram desenvolvidos com base em boas práticas de **Quality Assurance (QA)**, permitindo verificar o comportamento esperado da aplicação em diferentes situações de uso.
+
+Os casos de teste contemplam cenários positivos, negativos e validações de regras de negócio, contribuindo para a identificação de defeitos, prevenção de falhas e garantia da qualidade do software.
+
+Cada caso de teste possui um identificador único (ID), descrição da funcionalidade, cenário, pré-condições, passos para execução, resultado esperado e status da validação, proporcionando rastreabilidade, organização e facilidade de manutenção da documentação.
+
+Este documento faz parte do portfólio desenvolvido para demonstrar conhecimentos em documentação de testes, planejamento, execução e registro de evidências, simulando atividades realizadas por profissionais de Quality Assurance em projetos reais de desenvolvimento de software.
 
 ---
 
