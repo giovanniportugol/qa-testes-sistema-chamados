@@ -1,8 +1,6 @@
 # 🧪 Portfólio de Controle de Qualidade — Sistema de Chamados
 
-Projeto acadêmico desenvolvido como portfólio de estudos em **Quality Assurance (QA)**.
-
-O objetivo deste projeto é demonstrar conhecimentos em **testes de software**, desde o planejamento até a automação, por meio de documentação técnica, casos de teste, registro de bugs, evidências, matriz de rastreabilidade e testes automatizados.
+Projeto de portfólio desenvolvido para demonstrar conhecimentos em Quality Assurance (QA), incluindo documentação de testes, testes manuais, testes de APIs REST, automação com Playwright e boas práticas de qualidade de software.
 
 ---
 
