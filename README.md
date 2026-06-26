@@ -29,14 +29,15 @@ Além de consolidar meu aprendizado durante a graduação em **Análise e Desenv
 
 ## 📑 Índice
 
-* 🎯 Objetivo do Projeto
-* 🛠️ Tecnologias Utilizadas
-* 📂 Estrutura do Repositório
-* 📚 Documentação do Projeto
-* 🧪 Projeto Prático — BugBank
-* 🎯 Competências Demonstradas
-* 🚀 Roadmap
-* 👨‍💻 Autor
+- [🎯 Objetivo do Projeto](#-objetivo-do-projeto)
+- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+- [📂 Estrutura do Repositório](#-estrutura-do-repositório)
+- [📚 Documentação do Projeto](#-documentação-do-projeto)
+- [🧪 Projeto Prático — BugBank](#-projeto-prático--bugbank)
+- [🎯 Competências Demonstradas](#-competências-demonstradas)
+- [🚀 Roadmap](#-roadmap)
+- [👨‍💻 Autor](#-autor)
+
 
 ---
 
