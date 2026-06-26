@@ -1,41 +1,51 @@
+<div align="center">
+
 # 🧪 Portfólio de Controle de Qualidade — Sistema de Chamados
 
-Portfólio desenvolvido para demonstrar conhecimentos em **Garantia de Qualidade (QA)**, incluindo planejamento de testes, testes manuais, testes de APIs REST, automação com Playwright e documentação técnica.
+**Portfólio desenvolvido como parte dos meus estudos em Análise e Desenvolvimento de Sistemas para demonstrar conhecimentos em Garantia de Qualidade (QA), incluindo planejamento de testes, testes manuais, testes de APIs REST, automação com Playwright e documentação técnica, aplicando práticas utilizadas no desenvolvimento de software.**
 
-**Status | QA | Postman | Playwright | JavaScript | Git | GitHub | Licença**
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-success)
+![QA](https://img.shields.io/badge/QA-Portfolio-blue)
+![Postman](https://img.shields.io/badge/Postman-API%20Testing-orange)
+![Playwright](https://img.shields.io/badge/Playwright-Test%20Automation-green)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
+![Git](https://img.shields.io/badge/Git-Versionamento-red)
+![GitHub](https://img.shields.io/badge/GitHub-Portfólio-black)
 
----
-
-## 📖 Sobre o Projeto
-
-Este repositório reúne um conjunto de **artefatos e práticas de Garantia de Qualidade (QA)** desenvolvidos como parte dos meus estudos em **Análise e Desenvolvimento de Sistemas** e da construção do meu portfólio profissional.
-
-O projeto foi criado para consolidar conhecimentos em planejamento de testes, elaboração de casos de teste, registro de bugs, matriz de rastreabilidade, testes de APIs REST, automação com Playwright e organização da documentação técnica.
-
-Embora tenha origem acadêmica, sua estrutura foi desenvolvida com base em práticas utilizadas no mercado de desenvolvimento de software, simulando atividades **desempenhadas** por profissionais de Garantia de Qualidade.
-
-Este portfólio demonstra minha evolução técnica, meu compromisso com o aprendizado contínuo e minha preparação para atuar em oportunidades nas áreas de **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
+</div>
 
 ---
 
-## 📑 Índice
+# 📖 Sobre o Projeto
 
-* 🎯 Objetivo do Projeto
-* 🛠️ Tecnologias Utilizadas
-* 📂 Estrutura do Repositório
-* 📚 Documentação do Projeto
-* 🧪 Projeto Prático — BugBank
-* 🎯 Competências Demonstradas
-* 📈 Próximas Evoluções
-* 👨‍💻 Autor
+Este repositório reúne artefatos e práticas de **Garantia de Qualidade (QA)** desenvolvidos durante minha graduação em **Análise e Desenvolvimento de Sistemas**, compondo meu portfólio acadêmico e profissional.
+
+O projeto foi criado para consolidar conhecimentos em planejamento de testes, elaboração de casos de teste, registro e documentação de bugs, matriz de rastreabilidade, testes de APIs REST, automação de testes com Playwright e organização da documentação técnica.
+
+Embora tenha origem acadêmica, sua estrutura foi elaborada com base em práticas utilizadas em projetos de desenvolvimento de software, simulando atividades executadas por profissionais de Garantia de Qualidade.
+
+Este portfólio demonstra minha evolução técnica, meu compromisso com o aprendizado contínuo e minha preparação para oportunidades nas áreas de **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
 
 ---
 
-## 🎯 Objetivo do Projeto
+# 📑 Índice
+
+* [🎯 Objetivo do Projeto](#-objetivo-do-projeto)
+* [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [📂 Estrutura do Repositório](#-estrutura-do-repositório)
+* [📚 Documentação do Projeto](#-documentação-do-projeto)
+* [🧪 Projeto Prático — BugBank](#-projeto-prático--bugbank)
+* [🎯 Competências Demonstradas](#-competências-demonstradas)
+* [📈 Próximas Evoluções](#-próximas-evoluções)
+* [👨‍💻 Autor](#-autor)
+
+---
+
+# 🎯 Objetivo do Projeto
 
 Documentar e organizar atividades de testes para um sistema fictício de chamados, simulando práticas utilizadas por profissionais de **Garantia de Qualidade (QA)** em projetos de desenvolvimento de software.
 
-**Este portfólio contempla:**
+### Este portfólio contempla
 
 * ✅ Plano de Testes
 * ✅ Casos de Teste
@@ -48,16 +58,16 @@ Documentar e organizar atividades de testes para um sistema fictício de chamado
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
-Este projeto foi desenvolvido utilizando tecnologias e ferramentas amplamente empregadas em projetos de **Garantia de Qualidade (QA)**, documentação técnica, automação de testes e controle de versão.
+Este projeto utiliza tecnologias e ferramentas amplamente empregadas em projetos de **Garantia de Qualidade (QA)** para documentação, automação de testes, validação de APIs e controle de versão.
 
-### 💻 Linguagens
+## 💻 Linguagens
 
 * JavaScript
 * Markdown
 
-### 🔧 Ferramentas
+## 🔧 Ferramentas
 
 * Git
 * GitHub
@@ -65,7 +75,7 @@ Este projeto foi desenvolvido utilizando tecnologias e ferramentas amplamente em
 * Playwright
 * BugBank (Ambiente de Testes)
 
-### 🧪 Conceitos de QA Aplicados
+## 🧪 Conceitos de QA Aplicados
 
 * Planejamento de Testes
 * Elaboração de Casos de Teste
@@ -80,9 +90,9 @@ Este projeto foi desenvolvido utilizando tecnologias e ferramentas amplamente em
 
 ---
 
-## 📂 Estrutura do Repositório
+# 📂 Estrutura do Repositório
 
-A organização do repositório foi planejada para facilitar a navegação, a manutenção da documentação e a evolução contínua do projeto, reunindo os principais **artefatos** utilizados em processos de Garantia de Qualidade (QA).
+A estrutura do repositório foi organizada para facilitar a navegação, a manutenção da documentação e a evolução contínua do projeto, reunindo os principais artefatos utilizados em atividades de Garantia de Qualidade (QA).
 
 ```text
 qa-testes-sistema-chamados/
