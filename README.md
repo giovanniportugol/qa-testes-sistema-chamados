@@ -89,4 +89,37 @@ Este projeto foi desenvolvido utilizando tecnologias e ferramentas amplamente em
 * Automação de Testes
 * Versionamento de Código com Git e GitHub
 
+## 📂 Estrutura do Repositório
+
+```text
+qa-testes-sistema-chamados/
+│
+├── README.md
+├── plano-de-testes.md
+├── casos-de-teste.md
+├── relatorio-de-bugs.md
+├── matriz-de-rastreabilidade.md
+│
+├── automacao/
+│   ├── playwright/
+│   ├── pages/
+│   ├── tests/
+│   ├── package.json
+│   └── playwright.config.js
+│
+├── bugbank/
+│   ├── casos-de-teste-bugbank.md
+│   ├── relatorio-de-bugs-bugbank.md
+│   └── evidencias/
+│
+└── evidencias/
+    ├── README.md
+    └── cadastro-usuario-sucesso.png
+```
+
+A estrutura do repositório foi organizada para facilitar a navegação, a manutenção da documentação e a evolução contínua do projeto, seguindo boas práticas de Quality Assurance (QA).
+
 ---
+
+
+
