@@ -16,6 +16,7 @@
 </div>
 
 ---
+
 ## 📖 Sobre o Projeto
 
 Este repositório reúne um conjunto de artefatos e práticas de **Quality Assurance (QA)** desenvolvidos como parte dos meus estudos em **Análise e Desenvolvimento de Sistemas** e da construção do meu portfólio profissional.
@@ -26,20 +27,18 @@ Embora tenha origem acadêmica, sua estrutura foi desenvolvida com base em prát
 
 Este portfólio demonstra minha evolução técnica, meu compromisso com o aprendizado contínuo e minha preparação para atuar em oportunidades nas áreas de **QA**, **Suporte Técnico** e **Desenvolvimento de Software**.
 
-
 ---
 
 ## 📑 Índice
 
-- [🎯 Objetivo do Projeto](#-objetivo-do-projeto)
-- [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
-- [📂 Estrutura do Repositório](#-estrutura-do-repositório)
-- [📚 Documentação do Projeto](#-documentação-do-projeto)
-- [🧪 Projeto Prático — BugBank](#-projeto-prático--bugbank)
-- [🎯 Competências Demonstradas](#-competências-demonstradas)
-- [🚀 Roadmap](#-roadmap)
-- [👨‍💻 Autor](#-autor)
-
+* [🎯 Objetivo do Projeto](#-objetivo-do-projeto)
+* [🛠️ Tecnologias Utilizadas](#️-tecnologias-utilizadas)
+* [📂 Estrutura do Repositório](#-estrutura-do-repositório)
+* [📚 Documentação do Projeto](#-documentação-do-projeto)
+* [🧪 Projeto Prático — BugBank](#-projeto-prático--bugbank)
+* [🎯 Competências Demonstradas](#-competências-demonstradas)
+* [📈 Próximas Evoluções](#-próximas-evoluções)
+* [👨‍💻 Autor](#-autor)
 
 ---
 
@@ -57,3 +56,37 @@ Este portfólio contempla:
 * ✅ Testes de APIs REST
 * ✅ Automação de Testes com Playwright
 * ✅ Projeto Prático utilizando o BugBank
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+Este projeto foi desenvolvido utilizando tecnologias e ferramentas amplamente empregadas em projetos de **Quality Assurance (QA)**, documentação técnica, automação de testes e controle de versão.
+
+### 💻 Linguagens
+
+* JavaScript
+* Markdown
+
+### 🔧 Ferramentas
+
+* Git
+* GitHub
+* Postman
+* Playwright
+* BugBank (Ambiente de Testes)
+
+### 🧪 Conceitos de QA Aplicados
+
+* Planejamento de Testes
+* Elaboração de Casos de Teste
+* Testes Funcionais
+* Testes Exploratórios
+* Testes de APIs REST
+* Registro e Documentação de Bugs
+* Matriz de Rastreabilidade
+* Evidências de Testes
+* Automação de Testes
+* Versionamento de Código com Git e GitHub
+
+---
